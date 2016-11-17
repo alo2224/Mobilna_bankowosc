@@ -1,0 +1,49 @@
+    /*
+    public BankConnection(){
+        try {
+            MongoClientURI connectionString = new MongoClientURI("mongodb://mobile1:mob123@ds039095.mongolab.com:39095/?authSource=db1&authMechanism=SCRAM-SHA-1");
+            String user = "mobile1";
+            String database = "mobile_banking";
+            char[] password = new char[]{'m','o','b','1','2','3'};
+            MongoCredential credential = MongoCredential.createCredential(user,
+                    database,
+                    password);
+            MongoClient mongoClient = new MongoClient(new ServerAddress("ds039095.mongolab.com:39095"), Arrays.asList(credential));
+            Log.i("Connected", "Connected");
+            MongoCursor<String> cursor = mongoClient.listDatabaseNames().iterator();
+            //MongoCursor<String> cursor  = db.listCollectionNames().iterator();
+            try {
+                while(cursor.hasNext()) {
+                    Log.i("cursor",cursor.next());
+                }
+            }
+            catch (Exception e){
+                Log.e("Ex", "err" , e);
+            } finally{
+                cursor.close();
+            }
+           //MongoCollection<Document> collection = db.getCollection("bank_pass");
+            //accounts = collection;
+        }
+        catch(Exception e){
+            Log.e("Error","error",e);
+        }
+    }
+    */
+    public boolean connectToBank(String email , String password){
+        /*
+        Object userData;
+        userData = accounts.find(and(eq("email", email), eq("password", password))).first();
+        Log.i("User", userData.toString());
+        Log.d("Dupa","Dupa");
+        return true;
+        */
+        String pass = (String) accounts.get(email);
+        Log.d("Dupa",pass);
+        if(pass.matches(password)){
+            return true;
+        }
+        else{
+            return false;
+        }
+    }

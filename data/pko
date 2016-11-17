@@ -1,0 +1,47 @@
+{ 
+    "accounts":{
+        "12345678901234567890123444":{
+            "balance": 2500,
+            "history":{
+                "08-01-2016":{
+                    "info":"Tesco Cracow Kapelanka",
+                    "category":"grocery shopping",
+                    "type":"card",
+                    "amount": -100
+                },
+                "05-01-2016":{
+                    "info":"Theater",
+                    "category":"culture",
+                    "type":"card",
+                    "amount": -100
+                },
+                "03-01-2016":{
+                    "info":"go-carts",
+                    "category":"entertainment",
+                    "type":"card",
+                    "amount": -30
+                },
+                "02-01-2016":{
+                    "info":"Ski resort",
+                    "category":"accommodation",
+                    "type":"card",
+                    "amount": -1000
+                },
+                  "02-01-2016":{
+                    "info":"Gas station",
+                    "category":"transport",
+                    "type":"card",
+                    "amount": -200
+                },
+                 "01-01-2016":{
+                    "info":"Layer firm",
+                    "category":"salary",
+                    "type":"transfer",
+                    "amount": 3000
+                }
+            }
+        }
+    }
+}
+    
+    

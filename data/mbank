@@ -1,0 +1,58 @@
+{ 
+    "accounts":{
+        "12345678901234567890123456":{
+            "balance": 1500,
+            "history":{
+                "08-01-2016":{
+                    "info":"Tesco Cracow Kapelanka",
+                    "category":"grocery shopping",
+                    "type":"card",
+                    "amount": -150
+                },
+                "07-01-2016":{
+                    "info":"Empik",
+                    "category":"culture",
+                    "type":"card",
+                    "amount": -150
+                },
+                "05-01-2016":{
+                    "info":"Cinema City",
+                    "category":"entertainment",
+                    "type":"card",
+                    "amount": -30
+                },
+                 "02-01-2016":{
+                    "info":"IT corp",
+                    "category":"salary",
+                    "type":"transfer",
+                    "amount": 4000
+                }
+            }
+        },
+        "12345678901234567890123450":{
+            "balance":40000,
+            "history":{
+                 "03-01-2016":{
+                    "info":"John Smith",
+                    "category":"retirement",
+                    "type":"transfer",
+                    "amount": 1000
+                },
+                "03-12-2015":{
+                    "info":"John Smith",
+                    "category":"retirement",
+                    "type":"transfer",
+                    "amount": 1000
+                },
+                "03-10-2015":{
+                    "info":"John Smith",
+                    "category":"retirement",
+                    "type":"transfer",
+                    "amount": 1000
+                }
+            }
+        }
+    }
+}
+    
+    

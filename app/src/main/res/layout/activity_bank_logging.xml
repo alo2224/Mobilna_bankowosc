@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".BankLogging">
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageButton"
+        android:src="@drawable/alior"
+        android:layout_gravity="center_horizontal"
+        android:layout_below="@+id/imageButton3"
+        android:layout_centerHorizontal="true"
+        android:tag="Alior"
+        android:onClick="logToBank" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageButton2"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/pko"
+        android:layout_below="@+id/imageButton4"
+        android:layout_centerHorizontal="true"
+        android:tag="PKO"
+        android:onClick="logToBank" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageButton4"
+        android:src="@drawable/mbank"
+        android:layout_gravity="center_horizontal"
+        android:layout_below="@+id/imageButton"
+        android:layout_centerHorizontal="true"
+        android:tag="mBank"
+        android:onClick="logToBank" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Kliknij ikone banku w celu powiazania swojego konta z nasza aplikacja."
+        android:id="@+id/textView2"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:singleLine="false"
+        android:layout_weight="0.12"
+        android:textStyle="bold"
+        android:gravity="center" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageButton3"
+        android:src="@drawable/wbk"
+        android:layout_below="@+id/textView2"
+        android:layout_centerHorizontal="true"
+        android:tag="WBK"
+        android:onClick="logToBank" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Przejdź dalej"
+        android:id="@+id/logFinished"
+        android:layout_below="@+id/textView3"
+        android:layout_centerHorizontal="true"
+        android:tag="goNext"
+        android:onClick="setContentView"
+        android:nestedScrollingEnabled="false" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Jeśli powiązałeś wszystkie swoje konta przejdz dalej."
+        android:id="@+id/textView3"
+        android:layout_below="@+id/imageButton2"
+        android:layout_centerHorizontal="true"
+        android:gravity="center" />
+
+</RelativeLayout>

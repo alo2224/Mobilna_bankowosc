@@ -1,0 +1,53 @@
+{ 
+    "accounts":{
+        "12345678901234567890123999":{
+            "balance":11000,
+            "history":{
+                 "03-01-2016":{
+                    "info":"John Lock",
+                    "category":"secret business",
+                    "type":"transfer",
+                    "amount": 2000
+                },
+                "29-12-2015":{
+                    "info":"Adam Smith",
+                    "category":"for doing the job",
+                    "type":"transfer",
+                    "amount": 500
+                },
+                "28-12-2015":{
+                    "info":"Eva Thomson",
+                    "category":"quiet",
+                    "type":"transfer",
+                    "amount": 10000
+                },
+                "29-12-2015":{
+                    "info":"Adam Smith",
+                    "category":"for doing the job",
+                    "type":"transfer",
+                    "amount": 500
+                },
+                "29-12-2015":{
+                    "info":"Adam Smith",
+                    "category":"for doing the job",
+                    "type":"transfer",
+                    "amount": 500
+                },
+                "29-12-2015":{
+                    "info":"Adam Smith",
+                    "category":"for doing the job",
+                    "type":"transfer",
+                    "amount": 500
+                },
+                "29-12-2015":{
+                    "info":"Adam Smith",
+                    "category":"for doing the job",
+                    "type":"transfer",
+                    "amount": 500
+                }
+            }
+        }
+    }
+}
+    
+    

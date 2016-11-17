@@ -1,0 +1,29 @@
+{ 
+    "accounts":{
+        "12345678901234567890120000":{
+            "balance":-20000,
+            "history":{
+                 "03-01-2016":{
+                    "info":"Car loan",
+                    "category":"loan",
+                    "type":"transfer",
+                    "amount": -2000
+                },
+                "03-12-2015":{
+                   "info":"Car loan",
+                    "category":"loan",
+                    "type":"transfer",
+                    "amount": -2000
+                },
+                "03-10-2015":{
+                    "info":"Car loan",
+                    "category":"loan",
+                    "type":"transfer",
+                    "amount": -2000
+                }
+            }
+        }
+    }
+}
+    
+    
